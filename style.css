@@ -6,3 +6,15 @@
 .table{
     background-color:bisque;
 }
+body{
+    height: 100vh;
+    display: relative;
+}
+div{
+    width: 45vw;
+    height: 45vh;
+    position: absolute;
+    top:"Math.floor(Math.random() * 100)"+"%";
+    left:"Math.floor(Math.random() * 100)"+"%";;
+    background-color: lightpink;
+}
