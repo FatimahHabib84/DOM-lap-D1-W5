@@ -3,13 +3,8 @@ console.log(h1Class)
 h1Class.style.color = "white";
 h1Class.style.backgroundColor = "lightblue"
 
-// let pID = document.getElementById('pID')
-let head = document.getElementsByTagName('HEAD')[0]
-let linkForP = document.createElement('link')
-linkForP.rel = 'stylesheet'
-linkForP.type = 'text/css'
-linkForP.href = 'style.css'
-head.appendChild(linkForP)
+let pID = document.getElementById('pID')
+pID.setAttribute('class','pID')
 
 img = document.getElementsByTagName('img')[0]
 img.src = 'https://cdn-img1.imgworlds.com/assets/a5366382-0c26-4726-9873-45d69d24f819.jpg?key=home-gallery'
